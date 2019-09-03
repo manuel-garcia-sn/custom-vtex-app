@@ -1,0 +1,28 @@
+{
+  "name": "simple-application",
+  "vendor": "sngular",
+  "version": "0.0.0",
+  "title": "Simple application",
+  "description": "Simple application",
+  "scripts": {
+    "prereleasy": "bash pre.sh"
+  },
+  "builders": {
+    "react": "3.x",
+    "store": "0.x"
+  },
+  "dependencies": {
+    "vtex.store": "2.x",
+    "vtex.store-header": "2.x",
+    "vtex.store-footer": "2.x",
+    "vtex.store-components": "3.x",
+    "vtex.store-resources": "0.x",
+    "vtex.my-account": "1.x",
+    "vtex.styleguide": "9.x"
+  },
+  "mustUpdateAt": "2020-08-08",
+  "registries": [
+    "smartcheckout"
+  ],
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}

@@ -1,0 +1,8 @@
+{
+    "store.first-page": {
+        "before": [
+            "header"
+        ],
+        "component": "PrivacyPolicyPages"
+    }
+}
