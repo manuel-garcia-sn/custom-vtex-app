@@ -4,5 +4,11 @@
             "header"
         ],
         "component": "PrivacyPolicyPages"
+    },
+    "my-account-page.privacy-policy-page": {
+        "component": "MyAppPage"
+    },
+    "my-account-link.privacy-policy-link": {
+        "component": "MyAppLink"
     }
 }

@@ -18,6 +18,7 @@
     "vtex.store-components": "3.x",
     "vtex.store-resources": "0.x",
     "vtex.my-account": "1.x",
+    "vtex.my-account-commons": "1.x",
     "vtex.styleguide": "9.x"
   },
   "mustUpdateAt": "2020-08-08",
