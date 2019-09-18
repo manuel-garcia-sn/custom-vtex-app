@@ -1,0 +1,10 @@
+query appSettings2 {
+  testSettings {
+    storeId
+    productBinding
+    storeName
+  }
+#  appSettings2 {
+#    storeId
+#  }
+}

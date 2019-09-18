@@ -1,0 +1,14 @@
+type Query {
+  testSettings: Settings
+
+  appSettings2(
+    testField: String
+  ): Settings
+}
+
+type Settings {
+  storeId: String
+  testField: String
+  productBinding: String
+  storeName: String
+}

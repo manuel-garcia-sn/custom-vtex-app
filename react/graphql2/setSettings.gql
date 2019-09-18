@@ -1,0 +1,8 @@
+query SetSettings {
+  appSettings2(testField: "pepe") {
+     storeName
+     testField
+     productBinding
+     storeName
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "vtex.my-account",
+  "version": "0.18.0",
+  "main": "index.js",
+  "devDependencies": {
+    "@types/node": "^10.12.20",
+    "@vtex/api": "^3.49.0"
+  }
+}

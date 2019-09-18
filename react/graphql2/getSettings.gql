@@ -1,0 +1,8 @@
+query GetSettings {
+  testSettings {
+    storeName
+    testField
+    productBinding
+    storeName
+  }
+}
