@@ -12,3 +12,7 @@ type Settings {
   productBinding: String
   storeName: String
 }
+
+type Mutation {
+  mutTestSettings: Settings
+}

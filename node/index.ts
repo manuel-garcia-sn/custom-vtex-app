@@ -1,7 +1,7 @@
 import { ClientsConfig, LRUCache, Service, IOClients, ServiceContext } from '@vtex/api'
 import { Clients } from './clients'
 
-import {getSettings, postSettings} from './resolvers/settings'
+import {getSettings, mutTestSettings, postSettings} from './resolvers/settings'
 
 const TIMEOUT_MS = 800
 
@@ -39,6 +39,9 @@ export default new Service<IOClients>({
       Query: {
         testSettings:   getSettings,
         appSettings2:   postSettings
+      },
+      Mutation: {
+        mutTestSettings: mutTestSettings,
       }
     },
   },

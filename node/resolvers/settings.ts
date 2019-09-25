@@ -14,6 +14,10 @@ export async function getSettings(_root: any, _args: {}, ctx: ServiceContext) {
   return await ctx.clients.apps.getAppSettings(appId)
 }
 
+export async function mutTestSettings(_root: any, _args: {}, ctx: ServiceContext) {
+  return await ctx.clients.apps.getAppSettings(appId)
+}
+
 export async function postSettings(_root: any, _args: {}, ctx: ServiceContext) {
   return await ctx.clients.apps.saveAppSettings(appId, {"testField" : "testValue"})
 }
