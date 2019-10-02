@@ -1,9 +1,11 @@
 {
     "store.first-page": {
-        "before": [
-            "header"
-        ],
-        "component": "PrivacyPolicyPages"
+        "allowed": [
+            "privacypolicypages"
+        ]
+    },
+    "privacypolicypages": {
+        "component": "privacypolicypages"
     },
     "my-account-page.privacy-policy-page": {
         "component": "MyAppPage"
